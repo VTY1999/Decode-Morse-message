@@ -37,3 +37,16 @@ def decode(sentence)
   message.join(' ')
 end
 
+def run_decoder()
+  puts 'Enter Morse Code to decode:'
+  input = gets.chomp
+
+  print "\n\n                     ...Decoding...".send(:red).send(:bold)
+  sleep 1
+  Gem.win_platform? ? (system 'cls') : (system 'clear')
+
+  puts "\n\n\n\n\nYour decoded message is: #{decode(input).send(:green)}"
+  sleep 5
+end
+
+run_decoder
