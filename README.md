@@ -22,7 +22,13 @@ To get a local copy up and running follow these simple example steps.
 3. Run the project using `ruby Decode.rb` in terminal
 
 
-## Author
+## Authors
+
+👤 **Bereket Retta**
+
+- GitHub: [@bereketRetta](https://github.com/bereketretta)
+- Twitter: [@bekiopia](https://twitter.com/bekiopia)
+- LinkedIn: [BereketRetta](https://linkedin.com/in/bereket-retta)
 
 👤 **Verissimo Francis**
 
