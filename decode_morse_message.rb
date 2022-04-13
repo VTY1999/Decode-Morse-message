@@ -15,3 +15,25 @@ def decode_char(character)
     ''
   end
 end
+
+def decode_word(word)
+  letters = word.split(/ /)
+  decoded_word = ''
+
+  letters.each do |letter|
+    decoded_word += decode_char(letter)
+  end
+
+  decoded_word
+end
+
+def decode(sentence)
+  words = sentence.strip.tr('/', ' ').split(/   /)
+  message = []
+  words.each do |word|
+    message.push(decode_word(word))
+  end
+
+  message.join(' ')
+end
+
